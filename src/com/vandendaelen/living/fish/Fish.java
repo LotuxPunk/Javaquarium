@@ -83,22 +83,6 @@ public abstract class Fish extends Living {
         }
     }
 
-    public void youTouchMyTralala(Class c){
-        Random accessMemories = new Random(); //MDR, t'as vu la vanne ? Daft Punk toussa toussa.
-        int idVictim = accessMemories.nextInt(Aquarium.fishes.size());
-        while (Aquarium.fishes.get(idVictim) == this){
-            idVictim = accessMemories.nextInt(Aquarium.fishes.size());
-        }
-
-        if (this.getSpecie().equals(Aquarium.fishes.get(idVictim).getSpecie())){
-            if (sex != Aquarium.fishes.get(idVictim).getSex()){
-                //TODO terminer
-
-            }
-        }
-    }
-
-
     public char getSex() {
         return sex;
     }

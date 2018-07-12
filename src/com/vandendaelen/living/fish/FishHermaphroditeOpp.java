@@ -8,6 +8,6 @@ public class FishHermaphroditeOpp extends Fish {
 
     @Override
     public void reproduction() {
-
+        //TODO terminer
     }
 }
