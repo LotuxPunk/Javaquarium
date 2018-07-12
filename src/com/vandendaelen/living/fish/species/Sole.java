@@ -4,7 +4,7 @@ import com.vandendaelen.living.fish.FishHermaphroditeOpp;
 
 public class Sole extends FishHermaphroditeOpp {
 
-    public Sole(String specie, int age, String name, double size, double weight, char sex, boolean isCarnivore) {
+    public Sole(int age, String name, double size, double weight, char sex) {
         super("Sole", age, name, size, weight, sex, false);
     }
 }

@@ -4,7 +4,7 @@ import com.vandendaelen.living.fish.FishHermaphroditeAge;
 
 public class SeaBass extends FishHermaphroditeAge {
 
-    public SeaBass(String specie, int age, String name, double size, double weight, char sex, boolean isCarnivore) {
+    public SeaBass(int age, String name, double size, double weight, char sex) {
         super("Sea bass", age, name, size, weight, sex, false);
     }
 }
